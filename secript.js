@@ -1,4 +1,3 @@
-
 const player1 = document.getElementById("player1");
 const player2 = document.getElementById("player2");
 const roll1 = document.getElementById("roll1");
@@ -13,10 +12,9 @@ const newGame = document.getElementById("newGame");
 const winner = document.getElementById("winner");
 
 let currentPlayer, currentScore, totalScore1, totalScore2, gamePlaying;
-
     initializeGame();
      function initializeGame() {
-    currentPlayer = 1;
+    currentPlayer = 0;
     currentScore = 0;
     totalScore1 = 0;
     totalScore2 = 0;
