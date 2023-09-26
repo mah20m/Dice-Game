@@ -11,7 +11,7 @@ body {
 .div{
             /* mix-blend-mode: color-burn; */
             margin: 355px 8px 0px 166px;
-        
+            background-repeat: no-repeat;
 }
 
 .player {
